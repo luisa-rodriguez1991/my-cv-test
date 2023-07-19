@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- metadatos -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="portafolio de desarrollo web de luisa alejandra rodriguez"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <title>LARM | Desarrollo Web</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <link href="styles-bootstrap.css" rel="stylesheet" />
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Signika&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assest/reptar_godzilla_t_shirt_textual_tees.png"
+              width="50"
+              alt="logo pagina web"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Sobre mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Abilidades</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+              >proyectos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main-section -->
+    <section class="main d-flex justify-content-around flex-wrap align-items-center ">
+      <div class="main-first d-flex align-items-center">
+        <div class="main-first d-flex flex-column align-items-center">
+          <img
+            class="main-img-luisa rounded-circle"
+            src="./assest/reptar_godzilla_t_shirt_textual_tees.png"
+            alt="foto luisa rodriguez"/>
+          <h1>Luisa Alejandra Rodríguez</h1>
+          <h2>Desarrolladora web full stack</h2>
+        </div class= "main-about-me d-flex flex-column align-items-center">
+        <!-- sobre mi -->
+        <div class="container-text  d-flex flex-column align-items-center ">
+          <h2 class="section-title white-text">Un poco sobre mi</h2>
+          <p class="section-text text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
+              erat ut nunc ullamcorper mattis. Phasellus auctor dictum libero, quis
+              congue ante tincidunt sed. Donec consectetur erat ut risus condimentum
+              lobortis. Duis rutrum risus magna, ut accumsan ipsum rutrum eget.
+              Suspendisse ullamcorper molestie turpis sit amet auctor.
+           </p>
+        </div>
+      </div>
+    </section>
+
+    <div class=" main-second d-flex justify-content-center">
+      <img
+        class="main-second-img img-fluid"
+        src="./assest/4401280.jpg"
+        alt="laptop manos tipiando"
+      />
+    </div>
+    <!-- skills -->
+    <section class="skills d-flex  justify-content-center">
+      <div class="skills-cont text-center ">
+        <h2 class="section-title">Abilidades</h2>
+        <div class="row ">
+          <!-- Html -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="skill-title">Landing page</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-info">HTML</span>
+              <span class="badge text-bg-info">CSS</span>
+            </div>
+          </div>
+          <!-- css -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="skill-title">E-comerse</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-info">HTML</span>
+              <span class="badge text-bg-info">CSS</span>
+              <span class="badge text-bg-info">JavaScript</span>
+            </div>
+          </div>
+          <!-- javaScript -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-phone"></i>
+            <p class="skill-title">App</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-info">HTML</span>
+              <span class="badge text-bg-info">CSS</span>
+              <span class="badge text-bg-info">JavaScript</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-plus d-flex justify-content-center ">
+          <i class="bi bi-github"></i>
+          <i class="bi bi-bootstrap-fill"></i>
+        </div>
+      </div>
+    </section>
+    <!-- projects -->
+    <section class="projects d-flex flex-column dark-section">
+      <h2 class="section-title text-center">Algunos de mis Trabajos</h2>
+      <div class="container project-container text-center">
+        <div class="row">
+          <!-- poject1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="./assest/landing-page.png" />
+              <div class="overlay">
+                <p>Landing-page</p>
+              </div>
+            </div>
+          </div>
+          <!-- poject2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="./assest/landing-page.png" />
+              <div class="overlay">
+                <p>E-comerce</p>
+              </div>
+            </div>
+          </div>
+          <!-- project3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project">
+              <img src="./assest/landing-page.png" />
+              <div class="overlay">
+                <p>App</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
